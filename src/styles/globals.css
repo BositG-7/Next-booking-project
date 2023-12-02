@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffff !important;
+  color: white !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom right, #ffcc00, #ff00cc);
+  border-radius: 30px;
+  height: 5px !important;
+}
+
+::-webkit-scrollbar {
+  background-color: white;
+  width: 10px !important;
+  height: 5px !important;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.wrapper_video::-webkit-scrollbar {
+  display: none !important;
+}
+
+.m-539e827b:hover {
+  background-color: white;
+  color: black !important;
+}
+.m-8fb7ebe7 {
+}
+.mantine-Modal-content,
+.mantine-Modal-header {
+  z-index: 1000000 !important;
+}
+
+.mantine-Modal-header {
+  display: none !important;
+}
+
+.m-54c44539 {
+  max-height: auto;
+}
+
+.react-multiple-carousel__arrow {
+  z-index: 55;
+}
+
+.m-5df29311 {
+  padding-top: 16px !important;
+}
+.text {
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: nowrap;
+}
